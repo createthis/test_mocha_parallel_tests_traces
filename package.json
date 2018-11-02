@@ -1,0 +1,29 @@
+{
+  "name": "test_mocha_parallel_tests",
+  "version": "1.0.0",
+  "description": "test stuff",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mocha-parallel-tests": "^2.0.6-0",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha-parallel-tests --exit --timeout 15000 --full-trace",
+    "mochatest": "./node_modules/.bin/mocha --exit --timeout 15000 --full-trace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/createthis/test_mocha_parallel_tests.git"
+  },
+  "author": "Jesse CreateThis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/createthis/test_mocha_parallel_tests/issues"
+  },
+  "homepage": "https://github.com/createthis/test_mocha_parallel_tests#readme"
+}
