@@ -9,7 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "mocha": "^5.2.0",
-    "mocha-parallel-tests": "^2.0.6-0",
+    "mocha-parallel-tests": "^2.0.6-alpha.2",
     "should": "^13.2.3"
   },
   "scripts": {
